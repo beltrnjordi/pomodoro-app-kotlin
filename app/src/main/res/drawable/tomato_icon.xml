@@ -1,0 +1,40 @@
+<!-- tomato_smiley_icon.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Tomate base -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M32,8c13,0 22,10 22,22s-9,22 -22,22 -22,-10 -22,-22 9,-22 22,-22z" />
+
+    <!-- Hoja -->
+    <path
+        android:fillColor="#43A047"
+        android:pathData="M32,8c-1.5,-3.5 1,-6 3.5,-7 -0.2,2 0,3.5 1.5,4.5s3.5,2 3.5,2c-2.5,1 -6,1 -8.5,0.5z" />
+
+    <!-- Mejillas -->
+    <path
+        android:fillColor="#FFCDD2"
+        android:pathData="M19,36a3,3 0 1,0 6,0a3,3 0 1,0 -6,0" />
+    <path
+        android:fillColor="#FFCDD2"
+        android:pathData="M39,36a3,3 0 1,0 6,0a3,3 0 1,0 -6,0" />
+
+    <!-- Ojos (más pequeños y centrados) -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M25,28a2,2 0 1,0 4,0a2,2 0 1,0 -4,0" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M35,28a2,2 0 1,0 4,0a2,2 0 1,0 -4,0" />
+
+    <!-- Boca sonriente -->
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M26,42c2,3 10,3 12,0" />
+</vector>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="title_home">Inicio</string>
+    <string name="title_tasks">Tareas</string>
+    <string name="title_settings">Configuración</string>
+    <string name="title_stats">Estadísticas</string>
+    <string name="title_newtask">Nueva tarea</string>
+    <string name="app_name">PomodoroApp</string>
+    <string name="tasks_planned_pomodoros">Planificados</string>
+    <string name="tasks_completed_pomodoros">Completados</string>
+    <string name="tasks_btn_init_pomodoro">Iniciar pomodoro</string>
+    <string name="tasks_btn_new_task">Nueva tarea</string>
+    <string name="settings_pomodoro_length">Duración del Pomodoro</string>
+    <string name="settings_short_break_length">Descanso corto</string>
+    <string name="settings_long_break_length">Descanso largo</string>
+</resources>

@@ -1,0 +1,70 @@
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Widget.Material3.CardView.Elevated"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="16dp"
+    android:clickable="false"
+    android:focusable="true"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="2dp"
+    app:rippleColor="?attr/colorControlHighlight">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Nombre de la asignatura -->
+        <TextView
+            android:id="@+id/taskSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Matemáticas"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
+        <!-- Título de la tarea -->
+        <TextView
+            android:id="@+id/taskTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="Resolver ejercicios de álgebra"
+            android:textColor="?attr/colorOnSurface"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Detalles -->
+        <TextView
+            android:id="@+id/taskPlanned"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="3 pomodoros planificados"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/taskCompleted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="2 completados hoy"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="14sp" />
+
+        <!-- Separador sutil -->
+
+        <!-- Botón para seleccionar -->
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

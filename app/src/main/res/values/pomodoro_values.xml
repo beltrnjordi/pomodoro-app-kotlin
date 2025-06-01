@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="pomodoro_time">25</integer>
+    <integer name="short_break_time">5</integer>
+    <integer name="long_break_time">15</integer>
+    <integer name="long_break_interval">4</integer>
+    <bool name="automatic_pomodoro">false</bool>
+    <bool name="automatic_short_break">false</bool>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_tasks"
+        android:name="jorbel3.uv.es.pomodoroapp.ui.tasks.TaskListFragment"
+        android:label="@string/title_tasks"
+        tools:layout="@layout/fragment_task_list">
+
+        <action
+            android:id="@+id/action_tasksFragment_to_newTaskFragment"
+            app:destination="@id/navigation_newtask" />
+
+        <action
+            android:id="@+id/action_taskList_to_completedTasks"
+            app:destination="@id/navigation_completed_tasks" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="jorbel3.uv.es.pomodoroapp.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="jorbel3.uv.es.pomodoroapp.ui.settings.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/navigation_newtask"
+        android:name="jorbel3.uv.es.pomodoroapp.ui.tasks.NewTaskFragment"
+        android:label="@string/title_newtask"
+        tools:layout="@layout/fragment_newtask" />
+
+    <fragment
+        android:id="@+id/navigation_completed_tasks"
+        android:name="jorbel3.uv.es.pomodoroapp.ui.tasks.CompletedTasksFragment"
+        android:label="Tareas completadas"
+        tools:layout="@layout/fragment_completedtasks_list" />
+
+</navigation>
